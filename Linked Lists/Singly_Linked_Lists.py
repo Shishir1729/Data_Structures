@@ -14,7 +14,7 @@ class SinglyLinkedList:
     
     def __str__(self):
         if self.isEmpty():
-            return "Empty"
+            return ""
         else:
             answer = ""
             current = self.head
